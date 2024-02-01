@@ -23,7 +23,7 @@ services:
     restart: unless-stopped
 
   db:
-    image: docker.io/library/mariadb:10
+    image: docker.io/library/mariadb:11
     environment:
       - MYSQL_ROOT_PASSWORD=dvwa
       - MYSQL_DATABASE=dvwa
